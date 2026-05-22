@@ -4,7 +4,7 @@ import numpy as np
 import plotly.express as px
 
 # Cargar datos
-df = pd.read_csv(r"C:\Users\GTX 1660Ti\Downloads\Proyecto_S_7\vehicles_us.csv")
+df = pd.read_csv("vehicles_us.csv")
 df["type"] = df["type"].astype(str)
 
 # Poner título
